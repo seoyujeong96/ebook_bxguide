@@ -1,5 +1,7 @@
 /* Basic sample */
-
+ul,ol{
+	list-style: none;
+}
 body{
 	overflow:hidden;
 	background-color:#fcfcfc;
@@ -71,3 +73,12 @@ body{
 	height:400px;
 	background-size:100% 100%;
 }
+ul{list-style-type:none;
+	position:fixed;
+	right:5%; bottom:0;}
+  ul li{border:1px solid #aaa;
+	text-align:center;
+	padding:5px 0;
+	margin-bottom:10px;}
+  ul li img{width:80%; opacity:50%;}
+  
